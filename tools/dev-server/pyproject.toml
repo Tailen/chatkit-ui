@@ -1,0 +1,14 @@
+[project]
+name = "chatkit-dev-server"
+version = "0.1.0"
+description = "Dev backend server for testing chatkit-ui"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "openai-chatkit",
+    "openai-agents>=0.0.14",
+]
+
+[tool.uv.sources]
+openai-chatkit = { path = "../../reference/chatkit-python", editable = true }

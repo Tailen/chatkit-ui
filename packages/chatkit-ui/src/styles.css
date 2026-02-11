@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/*
+ * ChatKit UI Design Tokens
+ * These CSS custom properties define the theming API.
+ * They are set by the ThemeOption config and consumed by Tailwind v4 @theme.
+ */
+@theme {
+  /* Color scheme tokens — populated at runtime from ThemeOption */
+  --color-surface-bg: var(--chatkit-surface-bg, #ffffff);
+  --color-surface-fg: var(--chatkit-surface-fg, #0d0d0d);
+  --color-accent-primary: var(--chatkit-accent-primary, #0d0d0d);
+
+  /* Radius tokens */
+  --radius-chatkit: var(--chatkit-radius, 1.5rem);
+
+  /* Spacing base */
+  --spacing: 4px;
+}

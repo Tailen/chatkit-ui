@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.claude/
+
+# Environment
+.env
+.env.local
+
+# Dev server
+tools/dev-server/.venv/
+tools/dev-server/uv.lock
+
+# Reference snapshots
+reference/
